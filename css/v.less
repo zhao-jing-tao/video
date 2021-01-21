@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: yellowgreen;
+}
+@w:800px;
+#big {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: @w;
+    height: 500px;
+}
+
+#vid {
+    width: @w;
+    height: 450px;
+    background-color: pink;
+}
+
+#con {
+    width: @w;
+    height: 50px;
+    background-color: pink;
+}
+
+#con>div {
+    float: left;
+}
+/* 播放状态 */
+
+.stop {
+    width: 50px;
+    height: 50px;
+    background: url('../image/sprite.png') 5px;
+}
+/* 暂停状态 */
+
+.star {
+    width: 50px;
+    height: 50px;
+    background: url('../image/sprite.png') -40px;
+}
+
+#jin {
+    width: 350px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4)
+}
+
+#end {
+    width: 0px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#dian1,
+#dian2 {
+    position: absolute;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: url('../image/handle.png') no-repeat;
+}
+
+#time {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.no {
+    width: 50px;
+    height: 50px;
+    background: url('../image/sprite.png') -110px 8px;
+}
+
+.to {
+    width: 50px;
+    height: 50px;
+    background: url('../image/sprite.png') -70px 8px;
+}
+
+#liang {
+    position: relative;
+    width: 150px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4)
+}
+
+#quan {
+    width: 50px;
+    height: 50px;
+    background: url('../image/sprite.png') -148px 8px;
+}
